@@ -1,0 +1,132 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #eee;
+    margin:50px;
+  line-height: 1.6em;
+}
+.clr{
+  clear: both;
+}
+#main-header{
+
+}
+.nav-list{
+  background: #333;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+a:hover{
+  color:#9d9;
+}
+.nav-list li{
+  color:#fff!important;
+  display:inline;
+  list-style: none;
+  margin:0px;
+  width:100%;
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+.mainh{
+  padding:20px 10px;
+  border:5px #a00 solid;
+  background-color:#333;
+  color:#fff;
+}
+.mainh h1{
+  font-family: cursive;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+.box{
+  border:3px solid #ccc;
+  padding:20px;
+  margin:20px 0;
+}
+.cat{
+  border:1px #ccc solid ;
+  padding: 10px;
+  border-radius: 15px;
+}
+.cat h2{
+  text-align: center;
+}
+.cat ul{
+  padding-left: 9px;
+  list-style: none;
+  list-style-image: url('images/tt.jpg');
+}
+.cat li{
+  padding-bottom: 5px;
+  border-bottom: dotted 1px #333;
+}
+.my-form{
+  padding:20px;
+}
+.my-form label{
+  display: block;
+}
+.my-form .form-group{
+  padding-bottom: 15px;
+}
+.my-form input[type="text"], .my-form textarea{
+  padding: 8px;
+  width:100%;
+}
+.button{
+  background-color: #333;
+  color:#fff;
+  padding:10px 15px;
+  border: none;
+}
+.block{
+  float:left;
+  width:33.3%;
+  border:1px solid #ccc;
+  padding:10px;
+  box-sizing:border-box;
+}
+#main-block{
+  float:left;
+  width:70%;
+}
+#side-bar{
+  float:right;
+  width:30%;
+  color:#fff;
+  background-color: #333;
+  padding:15px;
+  box-sizing: border-box;
+}
+.p-box{
+  position: relative;
+  width:800px;
+  height: 500px;
+  border:1px solid #000;
+  margin-top:30px;
+  background-image: url('images/light.jpg');
+  background-position:100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p-box h1{
+  position:absolute;
+  top:100px;
+  left:200px;
+}
+
+.fix-me{
+  left:0px;
+  position: fixed;
+  top:400px;
+}
+.list li:nth-child(even)
+{
+  background:#333;
+}

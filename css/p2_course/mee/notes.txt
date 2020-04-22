@@ -1,0 +1,16 @@
+Here are the notes
+Do's:
+if you want a sticky nav bar just pop it out from header in html
+flex proprties such asalign itmes can be used instead of margin-top and are responsive in nature
+
+
+
+
+
+
+
+
+
+
+
+Dont's:

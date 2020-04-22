@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    font-family:"Roboto", sans-serif;
+    line-height: 1.6rem;
+}
+
+.container{
+    padding:0px 20px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.container h1{
+    display: block;
+    color:#fff;
+    padding:20px 0px;
+
+}
+nav .container h1{
+    float:left;
+}
+ul{
+    display:block;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+nav{
+    background:rgba(36, 35, 35, 0.904);
+    position:fixed;
+    width:100%;
+    overflow: hidden;
+
+}
+nav::-webkit-scrollbar{
+    position: fixed;
+}
+.special{
+    color:rgb(118, 216, 105);
+}
+nav .container ul{
+    float:right;
+}
+nav .container ul li{
+    display:inline-block;
+    padding:0px 5px;
+}
+nav .container ul li a{
+    display: block;
+    text-align: center;
+    margin-top:10px;
+    padding:10px 10px;
+}
+nav .container ul li a:hover{
+    background:rgb(140, 245, 126);
+    border-radius: 10px;
+}
+.main-info .container{
+    margin-top:35vh;
+    overflow: hidden;
+
+}
+.main-info{
+    background:url('../me/image_resources/showcase.jpg') no-repeat center center/cover;
+    color:#fff;
+    height:100vh;    
+    text-align:center;
+    overflow: hidden;
+
+}
+.main-info h1{
+    font-size:4em;
+}
+.main-info p{
+    padding:20px;
+    font-size :1.3rem;
+}
+.main-info a{   
+    display:inline-block;
+    background:rgb(91, 194, 77);
+    padding:10px 20px;
+    border-radius:   10px;;
+}
+.main-info a:hover{
+    background-color:rgb(46, 128, 35);
+}
+.what{
+    /* display:block; */
+    /* height:100%; */
+    padding:20px 0px;
+    background:rgba(233, 229, 229, 0.918);
+    color:rgb(66, 64, 64);
+    height:300px;
+} 
+.con{
+    display: block;
+    padding: 0 100px;
+    text-align:left;
+}
+.what .con h1{
+    font-size: 2rem;;
+    text-align: center;
+    margin:30px 10px;
+}
+.what h2{
+    font-size:1.1rem;
+    padding: 10px 0px; 
+}
+.box1{
+    width:20%;
+    float:left;
+    display: block;
+    margin: 10px 70px;
+}
+.box2{
+    width:20%;
+    display: block;
+    float:left;
+    margin: 10px 70px;
+}
+.box3{
+    width:20%;
+    display: block;
+    float:left;
+    margin: 10px 70px;
+}
+.who{
+    color:#fff;
+}
+.image{
+    width:50%;
+    height:430px;
+    float:left;
+    background:url('../me/image_resources/people.jpg') no-repeat center center/cover;   
+}
+.content{
+    padding:0px 25px;
+    width:50%;
+    float:right;
+    background:#333;
+    height:430px;
+}
+.content h2{
+    font-size:2rem;
+    padding:25px 0px;
+}
+.content ul li{
+    display:block;
+    margin:20px 0px;
+}
+.logos{
+    margin:50px 0px;
+    text-align:center;
+}
+.logos h1{
+    font-size:2rem;
+
+}
+.images{
+    margin:0px 190px;
+}
+.logos .images img{
+    height:90px;
+    float:left;
+    margin:20px 50px;
+}
+.contact{
+    display:block;
+    background:rgb(94, 163, 73);
+    color:#fff;
+    margin-top:150px;
+}
+.contact-content{
+    padding:30px;
+}
+label{
+    diplay:block;
+    width:100%;
+}
+.grp{
+    padding:15px 0px;
+}

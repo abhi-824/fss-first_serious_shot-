@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin:0.75rem 0;
+}
+.special{
+    color:rgb(98, 197, 68);
+
+}
+#navbar{
+    display:flex;
+    background:rgba(0,0,0,0.9) ;
+    color:#fff;
+    padding:1rem;
+    justify-content: space-between;
+    position: sticky;   
+    top:0;
+    z-index:1;
+    
+}
+#navbar ul{
+     display: flex;
+    list-style: none;
+    align-items: center;
+}
+#navbar ul li a{
+    color: #fff;
+    padding:0.75rem;
+    margin:0 0.25rem;
+}
+#navbar ul li a:hover{
+    background: rgb(98, 197, 68);
+    border-radius:10px;
+}
+#showcase{
+    background: url('../image_resources/showcase.jpg') no-repeat center center/cover;
+    color:#fff;
+    height:100vh;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height:100%;
+    padding:0 2rem;
+    /* Overlays */
+    position:absolute;
+    width:100%;
+    top:58px;
+    left:0;
+    background-color: rgba(0,0,0,0.4);
+}
+#what{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: honeydew;
+
+}
+#what .heading{
+    padding:40px;
+    padding-bottom: 0px;;
+}
+#what .heading h1{
+    font-size:2rem;
+}
+.boxes{
+    display: flex;
+    margin:0 40px;
+    padding:40px 60px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: honeydew; */
+    color:#333;
+    font-size:1rem;
+}
+.boxes i{
+    color:#333;
+    background-color: rgb(148, 253, 139);
+    border-radius: 50%;
+    padding:15px;
+}
+.boxes h2{
+    font-size:1.2rem;
+
+}
+.icons{
+    padding:20px;
+}
+.box1{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.box2{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.box3{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.info{
+    text-align: left;
+}
+
+#who{
+    display:flex;
+    background-color: #333;
+    text-align: left;  
+    font-size:1rem;
+}
+.people{
+    height:100%;
+}
+.people img{
+    width:50vw;
+    
+}
+.who-info{
+    width:50vw;
+    height: 100%;
+    PADDING:10PX 20PX;
+    color:#fff;
+}
+.who-info ul{
+    list-style: none;
+}
+.icons i:hover{
+    background:rgb(57, 231, 42);
+}
+.who-info ul li{
+    padding:10px 0px;
+}
+.who-info h1{
+    font-size:1.6rem;
+}
+.who-info h2{
+    padding:10px 0px;
+    font-size:1.3rem;
+}
+.logo-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo-sec h1{
+    font-size:2rem;
+    padding:30px 15px;
+    padding-bottom: 50px;
+}
+.logos{
+    display: flex;
+    width:80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logos img{
+    
+    height:20vh;
+
+}
+.contact{
+    display:flex;
+    text-align:left;
+    flex-direction: column;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+}
