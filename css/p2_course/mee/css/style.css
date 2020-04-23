@@ -90,11 +90,31 @@ p{
     color:#333;
     font-size:1rem;
 }
+.box1:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.2),4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.box2:hover{
+    transition: 1s;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.2),4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+.box3:hover{
+    transition: 1s;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.2),4px 4px 4px rgba(0, 0, 0, 0.2);
+}
 .boxes i{
     color:#333;
     background-color: rgb(148, 253, 139);
     border-radius: 50%;
     padding:15px;
+}
+.boxes i:hover{
+    transition:1s;
+    box-shadow: 4px 4px 4px rgb(201, 116, 116);
+    transform: rotate(360deg);
+
 }
 .boxes h2{
     font-size:1.2rem;
@@ -102,21 +122,26 @@ p{
 }
 .icons{
     padding:20px;
+
+    
 }
 .box1{
     display:flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    margin:0 15px;
 }
 .box2{
     display:flex;
     justify-content: space-around;
+    margin:0 15px;
     text-align: center;
     align-items: center;
 }
 .box3{
     display:flex;
+    margin:0 15px;
     justify-content: space-around;
     text-align: center;
     align-items: center;

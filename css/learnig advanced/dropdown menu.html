@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown Menu Test1</title>
+    <script src="https://kit.fontawesome.com/141974084f.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            line-height: 1.6em;
+        }
+        body{
+            background:#333;
+            color:#fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+        #navbar ul{
+            list-style: none;
+        }
+        a{
+            color:#fff;
+            text-decoration: none;
+        }
+        #navbar ul li{
+            display: inline-block;
+            position:relative;
+        }
+        #navbar ul li ul{
+            display: none;
+
+        }
+        #navbar ul li:hover ul{
+            display: block;
+            position:absolute;
+            background:#fff;
+            color:#333;
+        }
+        #navbar ul li ul li{
+            border-bottom: solid;
+            width:100%;
+            color:#333;
+        }
+        #navbar ul li ul li a{
+            color:#333;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <h1>AAJA AAJA</h1>
+        </div>
+        <ul class="upper">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                Services
+                <i class="fas fa-chevron-down"></i>
+                <ul>
+                    <li><a href="#">Massage</a></li>
+                    <li><a href="#">Paronthe</a></li>
+                    <li><a href="#">Sutai</a></li>
+                    <li><a href="#">Yoga</a></li>
+                </ul>
+            </li>
+
+            <li>
+                Contact
+                <i class="fas fa-chevron-down"></i>
+                    <ul>
+                        <li><a href="#">Massage</a></li>
+                        <li><a href="#">Paronthe</a></li>
+                        <li><a href="#">Sutai</a></li>
+                        <li><a href="#">Yoga</a></li>
+                    </ul>
+            </li>
+            <li>
+                info
+                <i class="fas fa-chevron-down"></i>
+                    <ul>
+                        <li><a href="#">Massage</a></li>
+                        <li><a href="#">Paronthe</a></li>
+                        <li><a href="#">Sutai</a></li>
+                        <li><a href="#">Yoga</a></li>
+                    </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

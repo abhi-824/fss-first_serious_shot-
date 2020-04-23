@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsule Button</title>
+    <style>
+        body{
+            background: #333;
+            display:flex;
+            height:100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .capsule-outer{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            height: 100px;
+            width:300px;
+            background: #fff;
+            border-radius:90px;
+        }
+        .inner-capsule{
+            /* padding:5px; */
+            height:95px!important;
+            width:185px;
+            background: #333;
+            border-radius: 90px;
+        }
+        .inner-capsule:active{
+            animation: animate1 1s ease-in-out 0s 1 alternate forwards;
+
+            
+        }
+        @keyframes animate1 {
+            to{
+                transform: translateX(95px);
+                background-color: rgb(94, 214, 134);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="capsule-outer">
+        <div class="inner-capsule">
+
+        </div>
+    </div>
+</body>
+</html>

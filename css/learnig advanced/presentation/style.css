@@ -1,0 +1,75 @@
+:root{
+    --page-1-color:steelblue;
+    --page-2-color:tan;
+    --page-3-color:olive;
+    --page-4-color:slateblue;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    overflow: hidden;
+
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#fff;
+    padding:30px;
+    height: 100vh;
+}
+.box1{
+    background: var(--page-1-color);
+}
+.box2{
+    background: var(--page-2-color);
+}
+.box3{
+    background: var(--page-3-color);
+}
+.box4{
+    background: var(--page-4-color);
+}
+h1{
+    font-size:4rem; 
+    padding:15px;
+}
+p{
+    font-size:1.4rem;
+    padding:15px;
+}
+.buttons{
+    diplay:flex;
+    padding:10px 10px;
+}
+.prev {
+    background:#333;
+    color:#fff;
+    padding:15px 20px; 
+}
+.next {
+    background:#fff;
+    color:#333;
+    padding:15px 20px; 
+}
+.box1 h1{
+    animation: animate1 2s ease-in-out 1 forwards;
+}
+@keyframes animate1{
+    from{
+               
+    }
+    to{
+        transform:translateX(30%);
+    }
+}
